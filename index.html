@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue sur la page de Keryan</title>
+</head>
+<body>
+    <h1>Voici une image de beluga :</h1>
+	<br>
+    <img src="keke_beluga.jpg" alt="Une photo d'exemple">
+	<br>
+	<br>
+	<br>
+	<h1>Voici les HASH attendus :</h1>
+	<br>
+Git (git hash-object)<br>
+*********************<br>
+Algorithm<br>
+---------&nbsp;&nbsp;<br>
+Hash&nbsp;=&nbsp;SHA1(blob&nbsp;12345\x00[contenu&nbsp;dé+l'image])<br>
+<br>
+Hash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File<br>
+----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----<br>
+caf05fb89571b73bb6711d1cef080837610061b9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doc\&nbsp;a\&nbsp;keke.doc<br>
+90298a4d81271b4c32dc7b9e06197573e5cf561f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;image_de_keke.png<br>
+4e4d62010cc5f6b8a9cfa569479d11828cd2105e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pdf\&nbsp;a\&nbsp;keke.pdf<br>
+21732cb80019b521639db9e35c9359df4a52a4f3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texte\&nbsp;de\&nbsp;keke.txt<br>
+<br>
+<br>
+PowerShell (Get-FileHash)<br>
+*************************<br>
+Algorithm&nbsp;&nbsp;&nbsp;&nbsp;Hash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File<br>
+---------&nbsp;&nbsp;&nbsp;&nbsp;----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----<br>
+SHA1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64B7876BAAE9DC699F1457E8CB93F9E247153EB6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doc&nbsp;a&nbsp;keke.doc<br>
+SHA1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D5A4064DFF792A2D34C2359E65A3D81BD31AF9A6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;image_de_keke.png<br>
+SHA1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4BF21AD76BB5CB24DD2685E3F0535FC28B4E7477&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pdf&nbsp;a&nbsp;keke.pdf<br>
+SHA1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;86BA9502BE915546D98A63AE46E1FA42CFC58964&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texte&nbsp;de&nbsp;keke.txt<br>
+
+
+
+</body>
+</html>   
